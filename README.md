@@ -1,6 +1,8 @@
 # WordsInvaders
 Java FX game like space invaders but with words
 
+La clase principal es MainScene.java
+
 ## Tipo del Juego
 Es un juego para aprender o practicar léxico en otros idiomas, presentado por medio de un shooter espacial.
 
@@ -42,7 +44,7 @@ En información se compartirá cuantos enemigos fueron eliminados con el misil i
 Por el formato del juego se usarán bases de datos de palabras y sus traducciones curadas, encontrar la base de datos de palabras en internet es una tarea a ejecutar durante el desarrollo del proyecto, ya que se espera contar una fuente confiable.
 
 
-## Diagrama de flujo
+## Diagrama de flujo (Desactualizado)
  ![diagrama de flujo de words invaders](/assets/WordsInvaders_Class_Diagram.drawio.png)
 
 ## Pendiente para entrega Final
