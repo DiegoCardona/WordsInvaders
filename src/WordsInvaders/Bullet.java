@@ -1,19 +1,20 @@
 package WordsInvaders;
 
+import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.image.Image;
 
 public abstract class Bullet extends LiveObject{
 
-    private Image bulletImage;
+    private static final int SPEED = 150;
 
-    private static final int SPEED = 2;
+    public Bullet(GraphicsContext gc) {
+        super(gc);
+    }
 
     /**
      * Create the bullet image and set the initial position of it.
      */
-    public void fire() {
-        this.graphicsContext.drawImage(bulletImage, this.positionX, this.positionY);
-    }
+    public abstract void fire();
 
     /**
      * This method will be used by java FX to update the position of the bullet
@@ -45,4 +46,5 @@ public abstract class Bullet extends LiveObject{
         );
         return  distance  < enemy.size / 2 + this.size / 2;
     }
+
 }

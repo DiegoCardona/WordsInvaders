@@ -8,6 +8,10 @@ public class LiveObject {
     public GraphicsContext graphicsContext;
     public int size;
 
+    public LiveObject(GraphicsContext gc) {
+        this.graphicsContext = gc;
+    }
+
 
     /**
      * This method is use to calculate the distance from one object to other
